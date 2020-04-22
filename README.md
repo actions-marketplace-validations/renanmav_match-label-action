@@ -1,6 +1,6 @@
 # Match Label Action
 
-This action locates one of a given list of labels in the labels active on the workflow issue. You can use this to change what actions run when a new issue is created, for instance.
+This action locates one of a given list of labels in the labels active on the workflow issue. You can use this to change what actions run when a new issue is created, for instance. The test repo is available [here](https://github.com/renanmav/test-match-label).
 
 ## Inputs
 
