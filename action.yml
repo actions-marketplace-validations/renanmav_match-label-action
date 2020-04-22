@@ -1,5 +1,5 @@
-name: 'Match PR Label'
-description: 'Requires a PR to exactly one of the labels from a list'
+name: 'Match issue label'
+description: 'Requires a issue to exactly one of the labels from a list'
 inputs:
   allowed:
     description: >
