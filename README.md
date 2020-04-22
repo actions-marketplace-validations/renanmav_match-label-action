@@ -24,3 +24,7 @@ with:
     minor
     patch
 ```
+
+## Credits
+
+Thanks @zwaldowski for the original repo. 
