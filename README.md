@@ -17,7 +17,7 @@ The one label from the `allowed` list that was located. The action will fail if 
 ## Example usage
 
 ```yaml
-uses: zwaldowski/match-label-action@v1
+uses: renanmav/match-label-action@v1
 with:
   allowed: >
     major
