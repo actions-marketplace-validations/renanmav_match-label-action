@@ -1,6 +1,6 @@
 # Match Label Action
 
-This action locates one of a given list of labels in the labels active on the workflow PR. You can use this to change what actions run when a PR merges, for instance.
+This action locates one of a given list of labels in the labels active on the workflow issue. You can use this to change what actions run when a new issue is created, for instance.
 
 ## Inputs
 
@@ -17,7 +17,7 @@ The one label from the `allowed` list that was located. The action will fail if 
 ## Example usage
 
 ```yaml
-uses: renanmav/match-label-action@v1
+uses: renanmav/match-label-action@v4
 with:
   allowed: >
     major
