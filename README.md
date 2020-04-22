@@ -17,12 +17,13 @@ The one label from the `allowed` list that was located. The action will fail if 
 ## Example usage
 
 ```yaml
-uses: renanmav/match-label-action@v4
-with:
-  allowed: >
-    major
-    minor
-    patch
+- uses: renanmav/match-label-action@v3
+  with:
+    allowed: >
+      blogpost
+- name: Deploy blog
+  if: steps.label.outputs.match == 'blogpost'
+  run: echo "Deploying blog"
 ```
 
 ## Credits
